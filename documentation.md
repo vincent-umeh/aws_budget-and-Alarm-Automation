@@ -161,7 +161,7 @@ jobs:
 | **Secret** | `AWS_ACCESS_KEY_ID` | AWS IAM Access Key |  
 | **Secret** | `AWS_SECRET_ACCESS_KEY` | AWS IAM Secret Key |  
 | **Variable** | `NOTIFICATION_EMAIL` | Email for alerts |  
-| **Variable** | `BUDGET_AMOUNT` | Budget limit (e.g., `100`) |  
+| **Variable** | `BUDGET_AMOUNT` | Budget limit (e.g., `5`) |  
 
 ---
 
@@ -192,7 +192,7 @@ jobs:
 ```bash
 terraform destroy \
   -var="notification_email=your@email.com" \
-  -var="monthly_budget_amount=100"
+  -var="monthly_budget_amount=5"
 ```
 
 ---
@@ -217,7 +217,7 @@ terraform destroy \
 After deployment:  
 ```bash
 ✅ Budget Name: monthly-cost-budget  
-✅ SNS Topic ARN: arn:aws:sns:us-east-1:123456789012:budget-alerts  
+✅ SNS Topic ARN: arn:aws:sns:eu-west-1:123456789012:budget-alerts  
 ✅ CloudWatch Alarm: monthly-billing-alarm  
 ```
 
