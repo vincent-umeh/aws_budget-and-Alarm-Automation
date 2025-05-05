@@ -226,16 +226,3 @@ After deployment:
 ## **12. References**  
 - [AWS Budgets Documentation](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html)  
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)  
-
----
-
-**🚀 Pro Tip**: Add this to your resume under "Automated Cost Optimization Projects"!  
-
-[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?logo=github)](https://github.com/your-repo/aws-budget-monitoring)  
-
---- 
-
-**Let me know if you'd like to extend this with:**  
-- Multi-account budgeting  
-- Slack integrations  
-- Custom dashboards
